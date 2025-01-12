@@ -117,7 +117,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
 
             return v
 
-        # Start alpha-beta pruning from the root (Pacman is MAX)
+ 
         alpha = float('-inf')
         beta = float('inf')
         best_action = None
